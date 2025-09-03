@@ -18,7 +18,10 @@ from typing import List
 def get_table_details():
     # Read the CSV file into a DataFrame
     # IMPORTANT: Ensure 'database_table_descriptions.csv' is uploaded to /content/ or accessible
-    table_description = pd.read_csv("database_table_descriptions.csv") # Assuming the file is in the same directory as the script
+    # Dynamically resolve absolute path for Streamlit Cloud
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    CSV_PATH = os.path.join(BASE_DIR, "database_table_descriptions.csv")
+    table_description = pd.read_csv(CSV_PATH)
     table_docs = []
 
     # Iterate over the DataFrame rows to create Document objects
