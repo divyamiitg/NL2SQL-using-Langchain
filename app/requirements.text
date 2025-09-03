@@ -4,6 +4,7 @@ langchain-chroma
 langchain-google-genai
 pandas
 pymysql
-python-dotenv
+% python-dotenv
 sqlalchemy
 streamlit
+
