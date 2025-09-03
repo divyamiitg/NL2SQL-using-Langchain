@@ -77,7 +77,7 @@
 # langchain_utils.py (Corrected)
 
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from operator import itemgetter
 
 import streamlit as st
@@ -101,7 +101,7 @@ from examples import get_example_selector
 from prompts import answer_prompt, example_prompt
 
 # Load environment variables from .env file
-load_dotenv()
+# load_dotenv()
 
 db_user = os.getenv("db_user")
 db_password = os.getenv("db_password")
