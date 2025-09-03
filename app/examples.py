@@ -1,5 +1,5 @@
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import streamlit as st
 import asyncio # <--- 1. Import asyncio
 
@@ -7,7 +7,7 @@ from langchain_chroma import Chroma
 from langchain_core.example_selectors import SemanticSimilarityExampleSelector
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
-load_dotenv()
+# load_dotenv()
 
 examples = [
     {
