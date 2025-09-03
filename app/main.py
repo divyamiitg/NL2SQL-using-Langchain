@@ -19,7 +19,7 @@ if not api_key:
 # We only import the rest of our app if the key exists.
 from langchain_utils import invoke_chain
 
-st.title("Langchain NL2SQL Chatbot (Gemini)") # Update title to reflect Gemini usage
+st.title("Langchain NL2SQL Chatbot") # Update title to reflect Gemini usage
 
 # Remove OpenAI API key setting and client initialization
 # client = OpenAI(api_key="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")
