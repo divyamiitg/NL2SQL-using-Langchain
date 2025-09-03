@@ -1,3 +1,4 @@
+--upgrade
 pandas
 PyMySQL
 python-dotenv
@@ -9,3 +10,4 @@ langchain==0.1.16
 langchain-community==0.0.24
 langchain-google-genai==0.0.6
 chromadb==0.4.24
+
