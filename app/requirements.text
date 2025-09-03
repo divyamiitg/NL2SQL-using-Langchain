@@ -1,12 +1,11 @@
-# requirements.txt
 pandas
 PyMySQL
-% python-dotenv
 sqlalchemy
 streamlit
-SQLAlchemy
-langchain-community
-langchain-core
-langchain-google-genai
-langchain-chroma
+
+# LangChain + Integrations (stable version)
+langchain==0.1.16
+langchain-community==0.0.24
+langchain-google-genai==0.0.6
+chromadb
 
