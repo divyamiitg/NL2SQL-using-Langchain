@@ -1,13 +1,9 @@
---upgrade
+streamlit
 pandas
 PyMySQL
-python-dotenv
-sqlalchemy
-streamlit
-
-# Pin stable versions compatible with your code
-langchain==0.1.16
-langchain-community==0.0.24
-langchain-google-genai==0.0.6
-chromadb==0.4.24
+SQLAlchemy
+langchain-community
+langchain-core
+langchain-google-genai
+langchain-chroma
 
