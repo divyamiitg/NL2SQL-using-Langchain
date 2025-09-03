@@ -1,10 +1,12 @@
 # requirements.txt
-langchain
-langchain-chroma
-langchain-google-genai
 pandas
-pymysql
+PyMySQL
 % python-dotenv
 sqlalchemy
 streamlit
+SQLAlchemy
+langchain-community
+langchain-core
+langchain-google-genai
+langchain-chroma
 
