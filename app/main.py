@@ -1,9 +1,9 @@
 import streamlit as st
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os # Make sure os is imported
 
 # Load variables from .env file
-load_dotenv()
+# load_dotenv()
 
 # --- DEBUGGING STEP ---
 # Check if the API key was loaded successfully
