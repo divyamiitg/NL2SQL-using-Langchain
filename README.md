@@ -174,6 +174,4 @@ Divyam Jain
 
 Email: j.divyam@iitg.ac.in
 
-[Portfolio](https://divyamiitg.github.io/)
-
-[LinkedIn](https://www.linkedin.com/in/divyamiitg/)
+[Portfolio](https://divyamiitg.github.io/) | [LinkedIn](https://www.linkedin.com/in/divyamiitg/)
