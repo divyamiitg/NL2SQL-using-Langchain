@@ -4,10 +4,9 @@ This repository contains an intelligent NL2SQL (Natural Language to SQL) convers
 
 Built using LangChain, ChromaDB, Streamlit, and Gemini API, the platform enables semantic query understanding, adaptive table selection, and LLM-driven SQL generation, making data analytics more accessible and scalable.
 
-<pre>
 Dataset Note:
 This project currently uses the MySQL "SQL Sample Database" (8+ relational tables, ~100K+ records) for demonstration. The MySQL database is hosted on Aiven, a fully managed cloud service, ensuring secure access, scalability, and reliable query performance. The app is designed to integrate seamlessly with enterprise-grade database infrastructure with minimal configuration.
-</pre>
+
 
 ✨ Key Highlights
 
